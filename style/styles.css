@@ -90,7 +90,7 @@ body {
 /* Contenido */
 
 .container-contact {
-    height: 500px;
+    height: auto;
     overflow: hidden;
     background-image: url("/img/pattern-css-bg-2.png");
 }
@@ -123,4 +123,18 @@ body {
 
 .icon-contact img {
     width: 100%;
+}
+
+.form-contact{
+    color:white;
+    width: 60%;
+    border:2px solid red;
+    margin: 0 auto;
+}
+.form-contact div{
+    color: white;
+}
+
+.hs-richtext{
+    color: white !important;
 }
