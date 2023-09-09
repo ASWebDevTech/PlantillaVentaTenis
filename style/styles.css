@@ -24,8 +24,8 @@ body {
 }
 
 .navbar-brand {
-    display: flex;
-    width: 200px;
+    /* display: flex; */
+    max-width: 200px;
     height: 60px;
     align-items: center;
     justify-content: center;
@@ -64,9 +64,9 @@ body {
 
 
 /* Tarjetas */
-/* .card {
-    width: 18rem;
-} */
+.card {
+    max-width: 18rem;
+}
 
 .container-cards {
     background-image: url("/img/pattern-css-bg-2.png");
